@@ -1,0 +1,23 @@
+{
+    "name": "intent-lms/users",
+    "description": "",
+    "authors": [
+        {
+            "name": "Intent LMS",
+            "email": "info@intent-solutions.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Users\\": ""
+        }
+    }
+}

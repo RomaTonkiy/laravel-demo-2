@@ -1,0 +1,16 @@
+{
+    "name": "Core",
+    "alias": "core",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Core\\Providers\\CoreServiceProvider"
+    ],
+    "files": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Core\\database\\seeders\\CoreModuleSeeder"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Courses",
+    "label": "Courses",
+    "alias": "courses",
+    "description": "manage all courses",
+    "keywords": ["courses"],
+    "priority": 2,
+    "providers": [
+        "Modules\\Courses\\Providers\\CoursesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Courses\\database\\seeders\\CoursesModuleSeeder"
+        ]
+    }
+}

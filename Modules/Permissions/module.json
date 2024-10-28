@@ -1,0 +1,19 @@
+{
+    "name": "Permissions",
+    "label": "Permissions",
+    "alias": "permissions",
+    "description": "manage all permissions",
+    "keywords": ["permissions"],
+    "priority": 1,
+    "providers": [
+        "Modules\\Permissions\\Providers\\PermissionsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Permissions\\database\\seeders\\PermissionsModuleSeeder"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Auth": true,
+    "Core": true,
+    "Permission": true,
+    "Permissions": true,
+    "Test": true,
+    "Users": true,
+    "Courses": true
+}

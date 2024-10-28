@@ -1,0 +1,19 @@
+{
+    "name": "Users",
+    "label": "Users",
+    "alias": "users",
+    "description": "manage all users",
+    "keywords": ["users"],
+    "priority": 2,
+    "providers": [
+        "Modules\\Users\\Providers\\UsersServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "migration": {
+        "seeds": [
+            "Modules\\Users\\database\\seeders\\UsersModuleSeeder"
+        ]
+    }
+}
